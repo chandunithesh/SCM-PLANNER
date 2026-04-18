@@ -1,5 +1,5 @@
-from flask import Flask, render_template, request, send_file, jsonify
-import pandas as pd
+from flask import Flask, render_template, request, send_file, jsonify # type: ignore
+import pandas as pd # type: ignore
 import pickle
 import os
 
